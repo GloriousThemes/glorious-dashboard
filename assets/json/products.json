@@ -2,6 +2,7 @@
     "products": {
         "product1": {
             "title": "Ayush",
+            "type": "Theme",
             "desc": "This is a theme",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
             "buylink": "https://gloriousdash.com/products/",
@@ -9,6 +10,7 @@
         },
         "product2": {
             "title": "Nihal",
+            "type": "Plugin",
             "desc": "This is a theme2",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/ppt.svg",
             "buylink": "https://gloriousdash.com/products/2",

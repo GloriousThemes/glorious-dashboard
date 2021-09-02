@@ -46,7 +46,7 @@ if( ! empty ( $glorious_products_data ) ) {
                 <div class="meta">
                     <span class="dark-inverted"><?php echo $glorious_products->title;?></span>
                     <span>
-                        <span>4.7 MB</span>
+                        <span><?php echo $glorious_products->type;?></span>
                     <i aria-hidden="true" class="fas fa-circle icon-separator"></i>
                     <span><?php echo $glorious_products->desc; ?></span>
                     </span>
