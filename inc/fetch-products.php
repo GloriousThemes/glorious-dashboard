@@ -6,7 +6,7 @@
  **/
 
 
-echo "Fetched products";
+//echo "Fetched products";
 
 $url = 'https://raw.githubusercontent.com/GloriousDash/glorious-dashboard/main/assets/json/products.json';
 
@@ -57,6 +57,8 @@ if( ! empty ( $glorious_products_data ) ) {
                 <div class="meta">
                     <span class="dark-inverted"><?php //echo $glorious_products->title;?></span>
                     <span>
+                        <span></span><i aria-hidden="true" class="fas fa-circle icon-separator"></i><div></div>
+                        <span></span>
                         <span><a href="<?php echo $glorious_products->buylink; ?>">Buy the Product</a></span>
                     <i aria-hidden="true" class="fas fa-circle icon-separator"></i>
                     <span><a href="<?php echo $glorious_products->settingslink; ?>">Change Settings</a></span>

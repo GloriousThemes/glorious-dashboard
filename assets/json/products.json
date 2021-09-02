@@ -14,7 +14,7 @@
             "desc": "This is a theme2",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/ppt.svg",
             "buylink": "https://gloriousdash.com/products/2",
-            "settingslink": "/glorious-nihal"
+            "settingslink": "admin.php?page=gloriousdash-dashboard-products"
         },
         "product3": {
             "title": "Glorious",
