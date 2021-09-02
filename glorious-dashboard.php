@@ -65,11 +65,29 @@ function gloriousdash_dashboard_page(){
 
 
 /**
- * Register submenu
+ * Products Page
  */
 function gloriousdash_dashboard_products() {
     include 'inc/dashboard-products.php';
 }
+
+
+/**
+ * License Page
+ */
+function gloriousdash_dashboard_licenses() {
+    include 'inc/dashboard-licenses.php';
+}
+
+
+
+/**
+ * System Status Page
+ */
+function gloriousdash_dashboard_system() {
+    include 'inc/dashboard-system-status.php';
+}
+
 
 
 
