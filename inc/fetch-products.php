@@ -27,18 +27,45 @@ $glorious_products_data = json_decode( $glorious_products_body );
 if( ! empty ( $glorious_products_data ) ) {
     
     
-    echo '<ul>';
     
 
     foreach ( $glorious_products_data->products as $glorious_products ) {
-        echo '<li>';
-            echo $glorious_products->title . "<br>";
-            echo $glorious_products->desc . "<br>";
-            echo $glorious_products->icon . "<br>";
-            echo $glorious_products->buylink . "<br>";
-            echo $glorious_products->settingslink . "<br>";
-        echo '</li>';
-    }
 
-    echo '</ul>';
+            //echo $glorious_products->title . "<br>";
+            //echo $glorious_products->desc . "<br>";
+            //echo $glorious_products->icon . "<br>";
+            //echo $glorious_products->buylink . "<br>";
+            //echo $glorious_products->settingslink . "<br>";
+
+
+    ?>
+    <div class="column is-4">
+        <div class="tile-grid-item">
+            <div class="tile-grid-item-inner">
+                <img src="<?php echo $glorious_products->icon; ?>" data-demo-src="<?php echo $glorious_products->icon; ?>" alt="">
+                <div class="meta">
+                    <span class="dark-inverted"><?php echo $glorious_products->title;?></span>
+                    <span>
+                        <span>4.7 MB</span>
+                    <i aria-hidden="true" class="fas fa-circle icon-separator"></i>
+                    <span><?php echo $glorious_products->desc; ?></span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="tile-grid-item-inner">
+                <div class="meta">
+                    <span class="dark-inverted"><?php //echo $glorious_products->title;?></span>
+                    <span>
+                        <span><a href="<?php echo $glorious_products->buylink; ?>">Buy the Product</a></span>
+                    <i aria-hidden="true" class="fas fa-circle icon-separator"></i>
+                    <span><a href="<?php echo $glorious_products->settingslink; ?>">Change Settings</a></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php
+    }
 }

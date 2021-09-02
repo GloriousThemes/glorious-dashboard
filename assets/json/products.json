@@ -3,14 +3,14 @@
         "product1": {
             "title": "Ayush",
             "desc": "This is a theme",
-            "icon": "https://icon.com",
+            "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
             "buylink": "https://gloriousdash.com/products/",
             "settingslink": "/glorious-ayush"
         },
         "product2": {
             "title": "Nihal",
             "desc": "This is a theme2",
-            "icon": "https://icon.com2",
+            "icon": "https://huro.cssninja.io/assets/img/icons/files/ppt.svg",
             "buylink": "https://gloriousdash.com/products/2",
             "settingslink": "/glorious-nihal"
         }
