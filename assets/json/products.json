@@ -15,6 +15,14 @@
             "icon": "https://huro.cssninja.io/assets/img/icons/files/ppt.svg",
             "buylink": "https://gloriousdash.com/products/2",
             "settingslink": "/glorious-nihal"
-        }
+        },
+        "product3": {
+            "title": "Glorious",
+            "type": "Theme",
+            "desc": "This is a theme",
+            "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
+            "buylink": "https://gloriousdash.com/products/",
+            "settingslink": "/glorious-ayush"
+        },
     }
 }
