@@ -25,7 +25,21 @@ defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 define ('GLORIOUSDASHHOME', plugin_dir_path( __FILE__ ));
 define ('GLORIOUSDASHURI', plugin_dir_url( __FILE__ ));
 
-add_action( 'admin_menu', 'gloriousdash_dashboard_register_additional_menu' );
+//Execute after plugins are loaded
+add_action( 'init', 'gloriousdashboard_init' );
+
+function gloriousdashboard_init() {
+    //current user can manage options
+    if ( current_user_can( 'manage_options' ) ) {
+        add_action( 'admin_menu', 'gloriousdash_dashboard_register_additional_menu' );
+    }
+
+    //$screen = get_current_screen();
+}
+
+
+
+
 /**
  * Adds additional menu for menu-slug
  *
@@ -57,7 +71,6 @@ function gloriousdash_dashboard_register_additional_menu() {
  */
 function gloriousdash_dashboard_page(){
     esc_html_e( 'Admin Page Test', 'gloriousdash-dashboard' );  
-
     echo GLORIOUSDASHURI;
 
     include 'inc/dashboard.php';
@@ -91,6 +104,6 @@ function gloriousdash_dashboard_system() {
 
 
 
-    //include the style sheets files
-    include 'inc/register-css.php';
-    include 'inc/register-scripts.php';
+//include the style sheets files
+include 'inc/register-css.php';
+include 'inc/register-scripts.php';
