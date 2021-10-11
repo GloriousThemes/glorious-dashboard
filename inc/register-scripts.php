@@ -1,7 +1,7 @@
 <?php
 //register scripts required for GloriousDash Dashboard
 
-
+/*
 
 wp_register_script(
     'gloriousdash-dashboard-app',
@@ -100,3 +100,15 @@ wp_register_script(
     true
 );
 wp_enqueue_script( 'gloriousdash-dashboard-syntax' );
+
+
+wp_register_script(
+    'gloriousdash-dashboard-status',
+    GLORIOUSDASHURI . 'assets/js/status.js',
+    array( ),
+    '1.0',
+    true
+);
+wp_enqueue_script( 'gloriousdash-dashboard-status' );
+
+*/
