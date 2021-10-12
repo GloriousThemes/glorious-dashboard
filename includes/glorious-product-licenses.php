@@ -63,10 +63,13 @@ $gloriousframework_lic = new AyushMultiPurposeTheme();
     <div class="lqd-row">
 
       <!-- Activated License Form -->
-      <?php $gloriousframework_lic->Activated(); ?>
+      <?php 
+      if(empty($licenseKey)) {
+        $gloriousframework_lic->Activated();
+      } else { ?>
 
       <!-- Normal License Form -->
-      <?php $gloriousframework_lic->LicenseForm(); ?>
+      <?php $gloriousframework_lic->LicenseForm(); } ?>
 
       <!-- License Benefits List --> 
       <div class="lqd-col lqd-col-6">

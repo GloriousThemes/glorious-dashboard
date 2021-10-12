@@ -105,7 +105,7 @@ if( ! function_exists( 'gloriousdash_dashboard_register_additional_menu' ) ) {
         add_submenu_page( 'glorious', 'Gloriousdash Products', '- Products', 'manage_options', 'gloriousdash-dashboard-products', 'gloriousdash_dashboard_products' );
 
         // submenu for list of products
-        add_submenu_page( 'glorious', 'Gloriousdash Licenses', '- Licenses', 'manage_options', 'gloriousdash-dashboard-licenses', 'gloriousdash_dashboard_licenses' );
+        //add_submenu_page( 'glorious', 'Gloriousdash Licenses', '- Licenses', 'manage_options', 'gloriousdash-dashboard-licenses', 'gloriousdash_dashboard_licenses' );
 
         // submenu for list of products
         //add_submenu_page( 'glorious', 'Gloriousdash System Status', '- System Status', 'manage_options', 'gloriousdash-dashboard-system', 'gloriousdash_dashboard_system' );
