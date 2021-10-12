@@ -23,7 +23,8 @@
 defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
 define ('GLORIOUSDASHHOME', plugin_dir_path( __FILE__ ));
 define ('GLORIOUSDASHURI', plugin_dir_url( __FILE__ ));
-defin
+define( 'GLORIOUSVERSION', '1.0.0' );
+define( 'GLORIOUSNAME', 'GloriousMotive');
 
 //Execute after plugins are loaded
 function gloriousdashboard_init() {

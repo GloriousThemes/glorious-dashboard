@@ -39,7 +39,7 @@ function glorious_framework_glorious_admin_menu(){
 		'menu_title' => esc_html__('Glorious','glorious-framework'),
 		'capability' => 'edit_theme_options',
 		'menu_slug' => 'glorious',
-		'function' => 'glorious_welcome',//'glorious_framework_glorious_admin_page_welcome',
+		'function' => 'gloriousdash_dashboard_page',//'glorious_framework_glorious_admin_page_welcome',
 		'icon_url' => GLORIOUSDASHURI . 'assets/img/logo.svg',
 		'position' => '0',
 	);
@@ -108,18 +108,22 @@ if( ! function_exists( 'gloriousdash_dashboard_register_additional_menu' ) ) {
         add_submenu_page( 'glorious', 'Gloriousdash Licenses', '- Licenses', 'manage_options', 'gloriousdash-dashboard-licenses', 'gloriousdash_dashboard_licenses' );
 
         // submenu for list of products
-        add_submenu_page( 'glorious', 'Gloriousdash System Status', '- System Status', 'manage_options', 'gloriousdash-dashboard-system', 'gloriousdash_dashboard_system' );
+        //add_submenu_page( 'glorious', 'Gloriousdash System Status', '- System Status', 'manage_options', 'gloriousdash-dashboard-system', 'gloriousdash_dashboard_system' );
         
     }
 
 }
 
 function gloriousdash_dashboard_page() {
-
+	require_once GLORIOUSDASHHOME . 'includes/themes/glorious-landing.php'; //Register Styles
 }
 
 
 function glorious_welcome() {
     require_once GLORIOUSDASHHOME . 'includes/themes/glorious-welcome.php'; //Register Styles
 
+}
+
+function gloriousdash_dashboard_licenses() {
+	require_once GLORIOUSDASHHOME . 'includes/glorious-product-licenses.php'; //Register Styles
 }

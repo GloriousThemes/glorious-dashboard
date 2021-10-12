@@ -16,19 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 $docs_link = 'https://support.gloriousdash.com/docs/gloriousdash';
 $videos_link = 'https://support.gloriousdash.com/support';
 $support_link = 'https://support.gloriousdash.com';

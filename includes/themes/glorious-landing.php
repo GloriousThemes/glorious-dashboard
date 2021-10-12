@@ -9,12 +9,12 @@
 		<span class="lqd-v">1.3</span>	</span>
 
 	<ul class="lqd-dsd-menu">
-		<li class="">
+		<li class="is-active">
 			<a href="">
 				<span>GloriousMotive</span>
 			</a>
 		</li>
-		<li class="is-active">
+		<li class="">
 			<a href="/wp-admin/admin.php?page=<?php echo GLORIOUS_THEME_DASH; ?>">
 				<span>Welcome</span>
 			</a>
