@@ -18,49 +18,7 @@ body.toplevel_page_liquid,
   box-sizing: border-box
 }
 
-.lqd-dsd-wrap h1,
-.lqd-dsd-wrap h2,
-.lqd-dsd-wrap h3,
-.lqd-dsd-wrap h4,
-.lqd-dsd-wrap h5,
-.lqd-dsd-wrap h6 {
-  margin: 0 0 .5em;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  line-height: 1.25em;
-  color: #000
-}
 
-.lqd-dsd-wrap h1 {
-  font-size: 50px
-}
-
-.lqd-dsd-wrap h2 {
-  font-size: 44px
-}
-
-.lqd-dsd-wrap h3 {
-  font-size: 36px
-}
-
-.lqd-dsd-wrap h4 {
-  font-size: 25px
-}
-
-.lqd-dsd-wrap h5 {
-  font-size: 22px
-}
-
-.lqd-dsd-wrap h6 {
-  font-size: 18px
-}
-
-.lqd-dsd-wrap p {
-  margin: 0 0 1.5em
-}
-
-.lqd-dsd-wrap a {
-  color: #000
-}
 
 .lqd-dsd-wrap figure {
   margin: 0

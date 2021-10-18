@@ -20,31 +20,30 @@
 			</a>
 		</li>
 		<li class="">
-			<a href="https://gloriousmotive.com/wp-admin/admin.php?page=liquid-plugins">
+			<a href="/wp-admin/admin.php?page=wpayush">
+				<span>Activation</span>
+			</a>
+		</li>
+		<li class="">
+			<a href="/wp-admin/themes.php?page=<?php echo GLORIOUS_THEME_DASH; ?>-install-plugins&plugin_status=install">
 				<span>Install Plugins</span>
 			</a>
 		</li>
 		<li class="">
-			<a href="https://gloriousmotive.com/wp-admin/admin.php?page=liquid-import-demos">
+			<a href="/wp-admin/themes.php?page=one-click-demo-import">
 				<span>Import Demo</span>
 			</a>
 		</li>
 		<li class="">
-			<a href="https://gloriousmotive.com/wp-admin/admin.php?page=liquid-import-demos">
+			<a href="/wp-admin/admin.php?page=gloriousdash-dashboard-products">
 				<span>Other Products</span>
 			</a>
 		</li>
 		<li>
-			<a href="https://docs.liquid-themes.com/collection/174-hub-wordpress-theme" target="_blank">
-				<i class="lqd-icn-ess icon-md-help-circle"></i>
-				<span>Support</span>
-			</a>
-		</li>
-		<li>
-			<a href="https://docs.liquid-themes.com/collection/174-hub-wordpress-theme" target="_blank">
-				<i class="lqd-icn-ess icon-md-help-circle"></i>
-				<span>Documentations</span>
-			</a>
+		<a href="https://gloriousmotive.com/docs" target="_blank">
+			<i class="lqd-icn-ess icon-md-help-circle"></i>
+			<span>Documentations</span>
+		</a>
 		</li>
 	</ul>
 
@@ -53,7 +52,10 @@
 		<header class="lqd-dsd-header">
 			<div class="lqd-dsd-header-inner">
 				<h2>Welcome to <?php echo GLORIOUS_THEME_NAME; ?>!</h2>
-				<p>Total design freedom for everyone.</p>
+				<p>Total design freedom for everyone. Current Screen</p>
+				<?php 
+				$gloriousCurrentScreen = get_current_screen();
+				echo $gloriousCurrentScreen->parent_base; ?>
 			</div>
 		</header>
 		

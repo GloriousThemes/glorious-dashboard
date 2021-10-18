@@ -34,10 +34,14 @@ function gloriousdashboard_init() {
         add_action( 'admin_menu', 'gloriousdash_dashboard_register_additional_menu' );
     }
 
-    //$screen = get_current_screen();
+    //$gloriousCurrentScreen = get_current_screen();
+    //$currentScreen->parent_base;
+
 
 }
 add_action( 'init', 'gloriousdashboard_init' );
+
+
 
 
 

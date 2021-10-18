@@ -35,8 +35,8 @@ function glorious_framework_glorious_admin_menu(){
 	global $glorious_framework_glorious_admin_screens;
 
 	$admin_menu_page = array (
-		'title' => esc_html__('Glorious','glorious-framework'),
-		'menu_title' => esc_html__('Glorious','glorious-framework'),
+		'title' => esc_html__('GloriousMotive','glorious-framework'),
+		'menu_title' => esc_html__('GloriousMotive','glorious-framework'),
 		'capability' => 'edit_theme_options',
 		'menu_slug' => 'glorious',
 		'function' => 'gloriousdash_dashboard_page',//'glorious_framework_glorious_admin_page_welcome',
