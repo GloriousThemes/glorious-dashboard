@@ -8,7 +8,7 @@
 
 //echo "Fetched products";
 
-$url = 'https://raw.githubusercontent.com/GloriousDash/glorious-dashboard/main/assets/json/products.json';
+$url = 'https://raw.githubusercontent.com/GloriousThemes/glorious-dashboard/main/assets/json/products.json';
 
 $glorious_products_request = wp_remote_get( $url );
 
@@ -44,7 +44,7 @@ if( ! empty ( $glorious_products_data ) ) {
 <div class="col-xl-4">
     <div class="card widget widget-connection-request">
         <div class="card-header">
-            <h5 class="card-title"><?php echo $glorious_products->type;?><span class="badge badge-secondary badge-style-light">17 min ago</span></h5>
+            <h5 class="card-title"><?php echo $glorious_products->type;?><span class="badge badge-secondary badge-style-light"><?php echo $glorious_products->hosted;?></span></h5>
         </div>
         <div class="card-body">
             <div class="widget-connection-request-container d-flex">
