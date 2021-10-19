@@ -7,7 +7,7 @@
 
 				<?php 
 				$is_motive = 'is-active';
-				include 'common/header.php';?>
+				include  GLORIOUSDASHHOME . 'includes/themes/common/header.php';?>
 				
 				<!-- Infos -->
 				<div class="row">

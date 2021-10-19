@@ -48,7 +48,15 @@
 
     <header class="lqd-dsd-header">
       <div class="lqd-dsd-header-inner">
-        <h2>Welcome to <?php echo GLORIOUS_THEME_NAME; ?>!</h2>
-        <p>Total design freedom for everyone.</p>
+        <h2>
+             <?php
+             if( !empty($gheader)) {
+                  echo $gheader;
+             } else { ?>
+             Welcome to <?php echo GLORIOUS_THEME_NAME; ?>!<?php } ?></h2>
+        <p><?php
+             if( !empty($gdesc)) {
+                  echo $gdesc;
+             } else { ?>Total design freedom for everyone.<?php }?></p>
       </div>
     </header>

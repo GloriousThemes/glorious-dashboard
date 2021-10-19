@@ -16,10 +16,10 @@ require_once GLORIOUSDASHHOME . 'includes/themes/register-menu.php'; //load regi
 require_once GLORIOUSDASHHOME . 'includes/themes/fetch-themes.php'; //load register main menu file
 require_once GLORIOUSDASHHOME . 'includes/glorious-admin-styles.php'; //Register Styles
 
-
-
-
-
-
+if( !function_exists ('gloriousdash_dashboard_products') ) {
+    function gloriousdash_dashboard_products() {
+        require_once GLORIOUSDASHHOME . 'includes/glorious-other-products.php'; //Other Glorious Products
+    }
+}
 
 ?>

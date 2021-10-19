@@ -1,12 +1,12 @@
 {
     "products": {
         "product1": {
-            "title": "Ayush",
+            "title": "Ayush - MultiPurpose Theme",
             "type": "Theme",
-            "desc": "This is a theme",
+            "desc": "Ayush is a MultiPurpose WordPress theme with Elementor Page Builder and WooCommerce",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
-            "buylink": "https://gloriousdash.com/products/",
-            "settingslink": "/glorious-ayush"
+            "buylink": "https://gloriousmotive.com/products/ayush",
+            "settingslink": "https://demo.gloriousthemes.com/ayush"
         },
         "product2": {
             "title": "Nihal",
