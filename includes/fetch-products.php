@@ -66,8 +66,8 @@ if( ! empty ( $glorious_products_data ) ) {
                 </div>
             </div>
             <div class="widget-connection-request-actions d-flex">
-                <a href="<?php echo $glorious_products->buylink; ?>" class="btn btn-primary btn-style-light flex-grow-1 m-r-xxs"><i class="material-icons">done</i>Buy Now</a>
-                <a href="<?php echo $glorious_products->settingslink; ?>" class="btn btn-danger btn-style-light flex-grow-1 m-l-xxs"><i class="material-icons">close</i>Check Demo</a>
+                <a href="<?php echo $glorious_products->buylink; ?>" class="btn btn-success btn-style-light flex-grow-1 m-r-xxs"><i class="material-icons">download</i>Buy Now</a>
+                <a href="<?php echo $glorious_products->settingslink; ?>" class="btn btn-primary btn-style-light flex-grow-1 m-l-xxs"><i class="material-icons">support</i>Check Demo</a>
             </div>
         </div>
     </div>

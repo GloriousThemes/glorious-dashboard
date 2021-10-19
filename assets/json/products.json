@@ -10,22 +10,40 @@
             "hosted": "Envato"
         },
         "product2": {
-            "title": "Nihal",
-            "type": "Plugin",
-            "desc": "This is a theme2",
+            "title": "Nihal - WooCommerce Theme",
+            "type": "Theme",
+            "desc": "Nihal is a Clean, Fast and User Friendly WooCommerce Theme for WordPress",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/ppt.svg",
-            "buylink": "https://gloriousdash.com/products/2",
+            "buylink": "https://gloriousmotive.com/products/nihal",
             "settingslink": "admin.php?page=gloriousdash-dashboard-products",
             "hosted": "Envato"
         },
         "product3": {
             "title": "Glorious",
-            "type": "Theme",
-            "desc": "This is a theme",
+            "type": "Plugin",
+            "desc": "Core Plugin for all WordPress Themes by GloriousMotive",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
-            "buylink": "https://gloriousdash.com/products/",
-            "settingslink": "/glorious-ayush",
-            "hosted": "Envato"
+            "buylink": "https://gloriousmotive.com/products/",
+            "settingslink": "admin.php?page=gloriousdash-dashboard-products",
+            "hosted": "WordPress & Github"
+        },
+        "product4": {
+            "title": "Glorious",
+            "type": "Plugin",
+            "desc": "Core Plugin for all WordPress Themes by GloriousMotive",
+            "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
+            "buylink": "https://gloriousmotive.com/products/",
+            "settingslink": "admin.php?page=gloriousdash-dashboard-products",
+            "hosted": "WordPress & Github"
+        },
+        "product5": {
+            "title": "Glorious",
+            "type": "Plugin",
+            "desc": "Core Plugin for all WordPress Themes by GloriousMotive",
+            "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
+            "buylink": "https://gloriousmotive.com/products/",
+            "settingslink": "admin.php?page=gloriousdash-dashboard-products",
+            "hosted": "WordPress & Github"
         }
     }
 }

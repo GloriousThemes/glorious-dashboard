@@ -15,7 +15,7 @@
 			<div class="lqd-dsd-wrap">
 
 				<?php 
-				$is_motive = 'is-active';
+				$is_products = 'is-active';
                     $gheader = 'Our Glorious Products, that you will like';
                     $gdesc = 'Check out other products created by GloriousMotive';
 				include  GLORIOUSDASHHOME . 'includes/themes/common/header.php';?>
