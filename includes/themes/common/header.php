@@ -35,12 +35,7 @@
                     <span>Other Products</span>
                     </a>
                </li>
-               <li>
-                    <a href="https://gloriousmotive.com/support/" target="_blank">
-                    <i class="lqd-icn-ess icon-md-help-circle"></i>
-                    <span>Support</span>
-                    </a>
-               </li>
+               
                <li>
                     <a href="https://gloriousmotive.com/docs/" target="_blank">
                     <i class="lqd-icn-ess icon-md-help-circle"></i>

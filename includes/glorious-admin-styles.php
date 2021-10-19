@@ -7,7 +7,7 @@ function gloriousmotive_styles() {
 
      wp_enqueue_style( 'glorious-bootstrap', GLORIOUSDASHURI. 'styles/assets/plugins/bootstrap/css/bootstrap.min.css', array(), '1.0.0' );
      wp_enqueue_style( 'glorious-maindash', GLORIOUSDASHURI. 'styles/assets/css/main.min.css', array(), '1.0.0' );
-     wp_enqueue_style( 'glorious-horizontal-menu', GLORIOUSDASHURI. 'styles/assets/css/horizontal-menu/horizontal-menu.css', array(), '1.0.0' );
+     //wp_enqueue_style( 'glorious-horizontal-menu', GLORIOUSDASHURI. 'styles/assets/css/horizontal-menu/horizontal-menu.css', array(), '1.0.0' );
 
      wp_enqueue_script( 'glorious-bootstrap-js', GLORIOUSDASHURI. 'styles/assets/plugins/bootstrap/js/bootstrap.min.js', array(), '1.0.0', true );
 

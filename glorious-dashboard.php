@@ -1,19 +1,19 @@
 <?php
 /**
- * Plugin Name: Glorious Dashboard
- * Plugin URI:  https://gloriousmotive.com/products/
- * Description: GloriousDash & GloriousThemes Dashboard for all products and plugins.
+ * Plugin Name: Glorious
+ * Plugin URI:  https://gloriousmotive.com/products/glorious
+ * Description: GloriousMotive & GloriousThemes Dashboard for all products and plugins.
  * Version:     1.0.0
  * Author:      GloriousMotive
  * Author URI:  https://gloriousmotive.com
- * Text Domain: glorious-dashboard
+ * Text Domain: glorious
  * Domain Path: /languages
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
  * @package     Glorious Dashboard
- * @author      GloriousDash
- * @copyright   2021 GloriousDash ( Kashyap Technologies pvt ltd )
+ * @author      GloriousMotive
+ * @copyright   2021 GloriousMotive ( Kashyap Technologies pvt ltd )
  * @license     GPL-2.0+
  *
  * @wordpress-plugin
