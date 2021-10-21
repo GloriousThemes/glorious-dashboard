@@ -15,28 +15,10 @@
             "desc": "Nihal is a Clean, Fast and User Friendly WooCommerce Theme for WordPress",
             "icon": "https://huro.cssninja.io/assets/img/icons/files/ppt.svg",
             "buylink": "https://gloriousmotive.com/products/nihal",
-            "settingslink": "admin.php?page=gloriousdash-dashboard-products",
+            "settingslink": "https://demo.gloriousthemes.com/nihal",
             "hosted": "Envato"
         },
         "product3": {
-            "title": "Glorious",
-            "type": "Plugin",
-            "desc": "Core Plugin for all WordPress Themes by GloriousMotive",
-            "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
-            "buylink": "https://gloriousmotive.com/products/",
-            "settingslink": "admin.php?page=gloriousdash-dashboard-products",
-            "hosted": "WordPress & Github"
-        },
-        "product4": {
-            "title": "Glorious",
-            "type": "Plugin",
-            "desc": "Core Plugin for all WordPress Themes by GloriousMotive",
-            "icon": "https://huro.cssninja.io/assets/img/icons/files/pdf.svg",
-            "buylink": "https://gloriousmotive.com/products/",
-            "settingslink": "admin.php?page=gloriousdash-dashboard-products",
-            "hosted": "WordPress & Github"
-        },
-        "product5": {
             "title": "Glorious",
             "type": "Plugin",
             "desc": "Core Plugin for all WordPress Themes by GloriousMotive",

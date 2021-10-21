@@ -16,8 +16,8 @@
 
 				<?php 
 				$is_products = 'is-active';
-                    $gheader = 'Our Glorious Products, that you will like';
-                    $gdesc = 'Check out other products created by GloriousMotive';
+                    $gheader = 'Glorious Products';
+                    $gdesc = 'Check out other Glorious products created by GloriousMotive that will turn make your WordPress Glorious';
 				include  GLORIOUSDASHHOME . 'includes/themes/common/header.php';?>
 				
 				<!-- Infos -->
